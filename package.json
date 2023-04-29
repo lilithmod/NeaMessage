@@ -1,7 +1,7 @@
 {
-  "name": "@lilithmod/unborn-template",
+  "name": "@lilithmod/neamessage",
   "version": "1.0.0",
-  "description": "A template for libraries with typescript and github actions",
+  "description": "A port of Kyori's MiniMessage to Typescript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "private": true,
@@ -11,10 +11,14 @@
   "keywords": [],
   "author": "ghqst",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "parsimmon": "^1.18.1"
+  },
   "devDependencies": {
     "@types/node": "^16.11.6",
-    "typescript": "^4.6.2"
+    "@types/parsimmon": "^1.10.6",
+    "typescript": "^4.6.2",
+    "vitest": "^0.30.1"
   },
   "engines": {
     "node": ">=15.0.0"
